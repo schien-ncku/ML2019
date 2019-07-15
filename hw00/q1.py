@@ -13,4 +13,4 @@ with open(filename) as f:
         
 sorted_answers = sorted(answers)  # sort the answers and save the result to a new list
 
-open('ans1.txt', 'w').write(str(sorted_answers))
+open('given/ans1.txt', 'w').write(str(sorted_answers))
